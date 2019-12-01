@@ -36,7 +36,7 @@ public class ApplicationTest {
     @Ignore
     public void testWordCountSkip() {
         int count = app.countWords("this will be skipped");
-        assertTrue(count == 3);
+        assertTrue(count == 300);
     }
 
     @Test
